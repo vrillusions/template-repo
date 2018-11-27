@@ -1,5 +1,7 @@
 # Template Repo
 
+Consider adding a [repostatus](https://www.repostatus.org/) tag here
+
 ## Usage
 
 - Create new repo without any default files and clone it to local system.
