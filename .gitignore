@@ -1,1 +1,11 @@
-# Initial gitignore
+# Initial gitignore.
+#
+# Edit this list as appropriate (ie if not a python project can remove the python ignores)
+# See <https://github.com/github/gitignore>
+
+# Python
+__pycache__/
+.py[cod]
+.python-version
+.venv
+venv/
