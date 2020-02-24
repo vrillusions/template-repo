@@ -16,6 +16,6 @@ To setup deployment of documentation using mkdocs and github pages:
 
 - Edit first three lines of [mkdocs.yml](mkdocs.yml).
 - Generate a [personal token](https://github.com/settings/tokens) with the `repo` privilege.
-- Go to [this repo's secrets page](settings/secrets) and add the above token and call it `PERSONAL_TOKEN`.
+- Go to this repo's `settings > secrets` page and add the above token and call it `PERSONAL_TOKEN`.
 - On next push to repo it will create the `gh-pages` branch with generated documentation.
-- Go to [this repo's settings page](settings) and enable github pages using the `gh-pages` branch.
+- Go to this repo's `settings` page and enable github pages using the `gh-pages` branch.
