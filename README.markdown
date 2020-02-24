@@ -1,11 +1,21 @@
 # Template Repo
 
-Consider adding a [repostatus](https://www.repostatus.org/) tag here
+Consider adding a [repostatus](https://www.repostatus.org/) tag here.  Such as [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 
 ## Usage
 
-- Create new repo without any default files and clone it to local system.
-- Copy all files from this project to the new one.  Remeber to copy files that beging with `.`.
-- Add just the `.gitignore` for first commit and commit it to repo.  This is because modifying the very first commit (called the root commit) is pretty much impossible so the first commit should have very little in it.
-- Choose one of the `LICENSE.(description)` files and rename it to `LICENSE`.  Remove all others.
+- Create new repo using this as a template
+- Add a [LICENSE](LICENSE) file from another repo.  Don't include multiples here since that may appear confusing from a legal standpoint.
 - Update this readme file.
+
+## Mkdocs action
+
+If you don't want or need mkdocs integration then remove [publish_docs workflow](.github/workflows/publish_docs.yml).
+
+To setup deployment of documentation using mkdocs and github pages:
+
+- Edit first three lines of [mkdocs.yml](mkdocs.yml).
+- Generate a [personal token](https://github.com/settings/tokens) with the `repo` privilege.
+- Go to [this repo's secrets page](settings/secrets) and add the above token and call it `PERSONAL_TOKEN`.
+- On next push to repo it will create the `gh-pages` branch with generated documentation.
+- Go to [this repo's settings page](settings) and enable github pages using the `gh-pages` branch.

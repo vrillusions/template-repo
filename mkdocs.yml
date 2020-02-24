@@ -1,0 +1,17 @@
+site_name: CHANGE SITE_NAME IN MKDOCS.YML
+site_description: CHANGE DESCRIPTION IN MKDOCS.YML
+repo_url: https://github.com/vrillusions/CHANGE_ME
+theme: material
+dev_addr: 127.0.0.1:9999
+site_dir: docs_build
+extra_css:
+  - css/custom_style.css
+extra_javascript:
+  - js/links_in_new_tabs.js
+markdown_extensions:
+  - codehilite:
+  - extra:
+  - sane_lists:
+  - smarty:
+  - toc:
+      permalink: True
