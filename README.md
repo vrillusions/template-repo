@@ -5,7 +5,8 @@ Consider adding a [repostatus](https://www.repostatus.org/) tag here.  Such as [
 ## Usage
 
 - Create new repo using this as a template
-- Add a [LICENSE](LICENSE) file from another repo.  Don't include multiples here since that may appear confusing from a legal standpoint.
+  - Optionally can get a zip file of current code and extract in to new repo.  This avoids showing the "This page was created from vrillusions/template-repo" message.
+- Add a [LICENSE](LICENSE) file from another repo.  Didn't include several in template repo since that may appear confusing from a legal standpoint.
 - Update this readme file.
 
 ## Mkdocs action
